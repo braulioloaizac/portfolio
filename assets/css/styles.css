@@ -1,0 +1,68 @@
+:root{
+    --main-bg-color: #bdb9b9;
+    --sec-bg-color: #f55656;
+    --font-color: rgb(255, 255, 255);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+ 
+body{
+    background-color: var(--main-bg-color);
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--font-color);   
+}
+
+a{
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+header{
+    background-color: var(--sec-bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header h1{
+    font-size: 40px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 500;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    color: var(--font-color);
+    font-weight: 400;
+    font-size: 22px;
+  }
+
+
+.hero{
+    background-image: url(../images/hero.jpg);
+    height: 100px;
+    background-position: center;
+    background-size: contain;
+    background-color: white;
+    background-repeat: no-repeat;
+}
+
+
+
+footer{
+    background-color: var(--sec-bg-color);
+}
