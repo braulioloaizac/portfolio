@@ -32,6 +32,7 @@ ul{
 
 /* Header Section */
 header{
+    width: 100%;
     background-color: var(--sec-bg-color);
     display: flex;
     justify-content: space-between;
@@ -163,9 +164,33 @@ section p{
     
 }
 
+/* Contact Section */
+
+.contact-me{
+    margin: 0 0 20px 0;
+}
+.contact-me ul{
+    width: 70%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-me ul li{
+    border-bottom: 4px solid var(--sec-bg-color);
+    font-weight: 600;
+    padding: 4px 0;
+}
+
+.contact-me ul li a{
+    color: var(--sec-font-color);
+}
+
 /* Footer Section */
 footer{
     color: var(--main-font-color);
     background-color: var(--sec-bg-color);
     width: 100%;
+    padding: 20px 0;
+    text-align: center;
 }
