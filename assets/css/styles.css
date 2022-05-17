@@ -30,6 +30,8 @@ ul{
 
 }
 
+
+
 /* Header Section */
 header{
     width: 100%;
@@ -105,7 +107,7 @@ section p{
     height: 200px;
     width: 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
     border: 5px solid var(--sec-bg-color);
     border-radius: 10px;
@@ -193,4 +195,70 @@ footer{
     width: 100%;
     padding: 20px 0;
     text-align: center;
+}
+
+
+@media screen and (max-width: 900px) {
+    header{
+        display: block;
+        text-align: center;    
+    }
+
+    header nav{
+        display: block;
+    }
+
+    header nav ul{
+        display: block;
+        padding: 10px 0;
+    }
+
+    section{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    section h2{
+        border-right: none;
+        border-bottom: 3px solid var(--sec-font-color);
+        margin-bottom: 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-me p{
+        width: 100%;
+        font-size: 23px;
+    }
+
+    .works{
+        width: 100%;
+    }
+
+    .surf-report{
+        height: 200px;
+    }
+
+    .other4{
+        display: block;
+    }
+
+    .title-alt, .title{
+        display: block;
+        position: relative;
+        top: 135px;
+        left: 0;
+        
+    }
+
+    .contact-me ul{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .contact-me ul li{
+        border-bottom: none;
+    }
 }
