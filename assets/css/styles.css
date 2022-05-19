@@ -155,6 +155,7 @@ section p{
     background: linear-gradient(rgba(245, 86, 86, 0.5), rgba(245, 86, 86, 0.5)),url(../images/image2.jpg);
 }
 
+/* I had to use all the styles again because when i do the hover doesn't take the previous styles from .image-style */
 .led-wall:hover{
     background: none;
     background-image: url(../images/image2.jpg);   
@@ -237,7 +238,7 @@ footer{
     text-align: center;
 }
 
-
+/* Responsive design in devices with screens of less than 900px (tablets, phones) */
 @media screen and (max-width: 900px) {
     header{
         display: block;
