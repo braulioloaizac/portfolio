@@ -6,4 +6,4 @@ It has responsive design and reorganizes the sections for screens with less than
 
 It was developed using github as version control manager and i made new branches to add every new feature (the features were: responsive design and hover) and finally i merged those features to the main branch.
 
-[Portfolio Link]([https://braulioloaizac.github.io/portfolio/)
+[Portfolio Link](https://braulioloaizac.github.io/portfolio/)
