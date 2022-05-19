@@ -1,4 +1,4 @@
-/* Variables */
+/* Global Variables*/
 :root{
     --main-bg-color: #f8f8f8;
     --sec-bg-color: #f55656;
@@ -11,7 +11,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
   }
  
 body{
@@ -96,6 +95,8 @@ section p{
 }
 
 /* My Work Section */
+/* For this section i managed some first project styles apart from the other four (due to the size of it) 
+    and for them i grouped by two projects to create the grid layout using flexbox*/
 
 .works{
     display: flex;
@@ -103,6 +104,7 @@ section p{
     width: 80%;
 }
 
+/* Manages the images */
 .image-style{
     height: 200px;
     width: 100%;
@@ -111,6 +113,7 @@ section p{
     margin-top: 10px;
 }
 
+/* Manages the titles from the images */
 .title{
     background-color: var(--sec-bg-color);
     color: var(--main-font-color);
@@ -122,6 +125,7 @@ section p{
     left: -5;
 }
 
+/* Alternative title to manage the position of the first project title */
 .title-alt{
     top: 420px;
 }
@@ -131,17 +135,14 @@ section p{
 }
 
 .surf-report{
+    /* insets the backgrond image with the "fog" */
     background: linear-gradient(rgba(245, 86, 86, 0.5), rgba(245, 86, 86, 0.5)),url(../images/image1.jpg);
     height: 500px;
     margin: 0;
 }
 
 .surf-report:hover{
-    background: none;
     background-image: url(../images/image1.jpg);   
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .other4{
@@ -155,13 +156,9 @@ section p{
     background: linear-gradient(rgba(245, 86, 86, 0.5), rgba(245, 86, 86, 0.5)),url(../images/image2.jpg);
 }
 
-/* I had to use all the styles again because when i do the hover doesn't take the previous styles from .image-style */
+/* When the mouse arrow hover over the image it removes the "fog" */
 .led-wall:hover{
-    background: none;
     background-image: url(../images/image2.jpg);   
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .calculator{
@@ -169,11 +166,7 @@ section p{
 }
 
 .calculator:hover{
-    background: none;
     background-image: url(../images/image3.jpg);   
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .pastel-puzzles{
@@ -181,11 +174,7 @@ section p{
 }
 
 .pastel-puzzles:hover{
-    background: none;
     background-image: url(../images/image4.jpg);   
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .run-buddy{
@@ -193,13 +182,10 @@ section p{
 }
 
 .run-buddy:hover{
-    background: none;
     background-image: url(../images/image5.jpg);   
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
+/* Styles for background images */
 .background-settings{
     background-repeat: no-repeat;
     background-position: center;
@@ -252,6 +238,10 @@ footer{
     header nav ul{
         display: block;
         padding: 10px 0;
+    }
+
+    header nav ul li{
+        padding: 5px 0;
     }
 
     section{
