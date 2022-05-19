@@ -1,4 +1,4 @@
-/* Global Variables*/
+/* Global Variables */
 :root{
     --main-bg-color: #f8f8f8;
     --sec-bg-color: #f55656;
@@ -11,6 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
   }
  
 body{
@@ -71,6 +72,12 @@ header nav ul li a {
     background-repeat: no-repeat;
 }
 
+h2{
+    color: var(--sec-bg-color);
+    position: absolute;
+    right: 30px;
+    top: 165px;
+}
 
 /* About me Section */
 section{
@@ -80,7 +87,7 @@ section{
 
 }
 
-section h2{
+section h3{
     border-right: 3px solid var(--sec-font-color);
     width: 15%;
     text-align: right;
@@ -224,8 +231,8 @@ footer{
     text-align: center;
 }
 
-/* Responsive design in devices with screens of less than 900px (tablets, phones) */
-@media screen and (max-width: 900px) {
+/* Responsive design in devices with screens of less than 916px (tablets, phones) */
+@media screen and (max-width: 916px) {
     header{
         display: block;
         text-align: center;    
@@ -244,13 +251,18 @@ footer{
         padding: 5px 0;
     }
 
+    h2 {
+        display: none;
+     }
+        
+
     section{
         display: block;
         width: 100%;
         text-align: center;
     }
 
-    section h2{
+    section h3{
         border-right: none;
         border-bottom: 3px solid var(--sec-font-color);
         margin-bottom: 15px;
