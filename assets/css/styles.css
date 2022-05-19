@@ -251,6 +251,7 @@ footer{
         padding: 5px 0;
     }
 
+    /* The message disappears in responsive mode to simplify the layout */
     h2 {
         display: none;
      }
