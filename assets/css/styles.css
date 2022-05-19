@@ -106,9 +106,6 @@ section p{
 .image-style{
     height: 200px;
     width: 100%;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
     border: 5px solid var(--sec-bg-color);
     border-radius: 10px;
     margin-top: 10px;
@@ -134,9 +131,17 @@ section p{
 }
 
 .surf-report{
-    background-image: url(../images/image1.jpg);
+    background: linear-gradient(rgba(245, 86, 86, 0.5), rgba(245, 86, 86, 0.5)),url(../images/image1.jpg);
     height: 500px;
     margin: 0;
+}
+
+.surf-report:hover{
+    background: none;
+    background-image: url(../images/image1.jpg);   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .other4{
@@ -147,24 +152,59 @@ section p{
 
 
 .led-wall{
-    background-image: url(../images/image2.jpg);
-    
+    background: linear-gradient(rgba(245, 86, 86, 0.5), rgba(245, 86, 86, 0.5)),url(../images/image2.jpg);
+}
+
+.led-wall:hover{
+    background: none;
+    background-image: url(../images/image2.jpg);   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .calculator{
-    background-image: url(../images/image3.jpg);
-    
+    background: linear-gradient(rgba(245, 86, 86, 0.5), rgba(245, 86, 86, 0.5)),url(../images/image3.jpg);
+}
+
+.calculator:hover{
+    background: none;
+    background-image: url(../images/image3.jpg);   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .pastel-puzzles{
-    background-image: url(../images/image4.jpg);
-    
+    background: linear-gradient(rgba(245, 86, 86, 0.5), rgba(245, 86, 86, 0.5)),url(../images/image4.jpg);
+}
+
+.pastel-puzzles:hover{
+    background: none;
+    background-image: url(../images/image4.jpg);   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .run-buddy{
-    background-image: url(../images/image5.jpg);
-    
+    background: linear-gradient(rgba(245, 86, 86, 0.5), rgba(245, 86, 86, 0.5)),url(../images/image5.jpg); 
 }
+
+.run-buddy:hover{
+    background: none;
+    background-image: url(../images/image5.jpg);   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.background-settings{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 
 /* Contact Section */
 
@@ -262,3 +302,5 @@ footer{
         border-bottom: none;
     }
 }
+
+
