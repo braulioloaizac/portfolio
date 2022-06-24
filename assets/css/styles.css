@@ -143,13 +143,14 @@ section p{
 
 .surf-report{
     /* insets the backgrond image with the "fog" */
-    background: linear-gradient(rgba(245, 86, 86, 0.5), rgba(245, 86, 86, 0.5)),url(../images/image1.jpg);
+    background: linear-gradient(rgba(245, 86, 86, 0.5), rgba(245, 86, 86, 0.5)),url(../images/image1.png);
     height: 500px;
     margin: 0;
+    background-size: contain;
 }
 
 .surf-report:hover{
-    background-image: url(../images/image1.jpg);   
+    background-image: url(../images/image1.png);   
 }
 
 .other4{
