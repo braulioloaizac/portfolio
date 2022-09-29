@@ -96,13 +96,13 @@ section h3{
     font-size: 35px;
 }
 
-section img{
+section div img{
     width: 15%;
     border-radius: 200px;
     margin-bottom: 10px;
 }
 
-section p{
+section div p{
     width: 70%;
     text-align: justify;
 }
