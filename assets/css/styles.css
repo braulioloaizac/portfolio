@@ -96,6 +96,12 @@ section h3{
     font-size: 35px;
 }
 
+section img{
+    width: 15%;
+    border-radius: 200px;
+    margin-bottom: 10px;
+}
+
 section p{
     width: 70%;
     text-align: justify;
@@ -275,6 +281,10 @@ footer{
     .about-me p{
         width: 100%;
         font-size: 23px;
+    }
+
+    section img{
+        width: 25%;
     }
 
     .works{
